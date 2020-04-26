@@ -12,6 +12,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "semantic-release": "semantic-release",
+    "copy-statics": "copyfiles -u 1 ./statics/**/* public",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "author": "Pavel Kukov <pavelkukov@gmail.com>",
@@ -44,6 +45,7 @@
     "@typescript-eslint/eslint-plugin": "^2.27.0",
     "@typescript-eslint/parser": "^2.27.0",
     "commitlint": "^8.3.5",
+    "copyfiles": "^2.2.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-prettier": "^3.1.2",
