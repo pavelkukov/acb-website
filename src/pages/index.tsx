@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -43,7 +44,7 @@ export default function IndexPage(): React.ReactElement {
                     🌈 Features:
                 </h3>
                 <ul>
-                    <li>Choose pastels, magic wand, or stickers</li>
+                    <li>Choose crayons, magic wand, or stickers</li>
                     <li>Recolor as many times as you want</li>
                     <li>Save and print colored pages</li>
                     <li>Share your creations with friends</li>
@@ -67,6 +68,36 @@ export default function IndexPage(): React.ReactElement {
                 Have fun playing &quot;Adults Coloring Books&quot; the most
                 fulfilling game around!
             </p>
+            <div>
+                <h3>Articles</h3>
+                <ul>
+                    <li>
+                        <Link to="/stress-relieving-pattern/">
+                            Stress Relieving Pattern
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/calm-down/">
+                            Coloring Books for Grown-Ups: Calm the f*ck down!
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/melt-the-stress-away/">
+                            Best Adults Coloring Pages to Melt The Stress Away
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/best-rated-adult-coloring-book/">
+                            Best-rated adult coloring book
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/mandala-coloring-for-adults/">
+                            Mandala coloring pages and designs for adults
+                        </Link>
+                    </li>
+                </ul>
+            </div>
         </Layout>
     )
 }
