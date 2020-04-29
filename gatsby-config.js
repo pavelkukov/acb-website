@@ -3,6 +3,7 @@ module.exports = {
         title: `Adults Coloring Books`,
         description: `The best coloring book app for adults.`,
         author: `@pavelkukov`,
+        siteUrl: `https://coloring-pages.tv`,
     },
     plugins: [
         `gatsby-plugin-typescript`,
@@ -30,6 +31,7 @@ module.exports = {
         },
         // this (optional) plugin enables Progressive Web App + Offline functionality
         // To learn more, visit: https://gatsby.dev/offline
-        // `gatsby-plugin-offline`,
+        `gatsby-plugin-offline`,
+        `gatsby-plugin-sitemap`,
     ],
 }
