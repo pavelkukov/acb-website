@@ -3,6 +3,15 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import { FlexRow, FlexCol } from '../components/layout/FlexRow'
+
+import Phone1 from '../components/images/Phone1'
+import Phone2 from '../components/images/Phone2'
+import Phone3 from '../components/images/Phone3'
+
+import Tablet2 from '../components/images/Tablet2'
+import Tablet3 from '../components/images/Tablet3'
+import Tablet4 from '../components/images/Tablet4'
 
 export default function IndexPage(): React.ReactElement {
     return (
@@ -16,24 +25,71 @@ export default function IndexPage(): React.ReactElement {
                 >
                     <p>
                         <strong>
-                            &quot;Adults Coloring Books&quot; is a free,
-                            coloring book for adults on Android.
+                            &quot;
+                            <a href="https://play.google.com/store/apps/details?id=adults.coloring.books">
+                                Adults Coloring Books
+                            </a>
+                            &quot; is a free, coloring book for adults on
+                            Android.
                         </strong>{' '}
                         It offers an artistic and fun way to play while
                         challenging the imagination.
                     </p>
-                    <p>
-                        Discover a continually growing collection of
-                        illustrations, a wide selection of colors, and a variety
-                        of cute stickers. The simple interface and beautiful
-                        colouring pages make the app an excellent game for all
-                        ages. Get ready for a calming experience!
-                    </p>
-                    <p>
-                        Works on tablets and phones. No registration required.
-                        New images are available for free in the coloring book.
-                    </p>
+                    <FlexRow>
+                        <FlexCol>
+                            <iframe
+                                style={{ width: '100%', height: '100%' }}
+                                src="https://www.youtube.com/embed/ZVrzkqW0edI"
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                            ></iframe>
+                        </FlexCol>
+                        <FlexCol>
+                            <p>
+                                Discover a continually growing collection of
+                                illustrations, a wide selection of colors, and a
+                                variety of cute stickers. The simple interface
+                                and beautiful colouring pages make the app an
+                                excellent game for all ages. Get ready for a
+                                calming experience!
+                            </p>
+                            <p>
+                                Works on tablets and phones. No registration
+                                required. New images are available for free in
+                                the coloring book.
+                            </p>
+                        </FlexCol>
+                    </FlexRow>
                 </div>
+            </div>
+            <FlexRow>
+                <FlexCol>
+                    <Phone1 />
+                </FlexCol>
+                <FlexCol>
+                    <Phone3 />
+                </FlexCol>
+                <FlexCol>
+                    <Tablet2 />
+                </FlexCol>
+                <FlexCol>
+                    <Tablet4 />
+                </FlexCol>
+                <FlexCol>
+                    <Phone2 />
+                    <Tablet3 />
+                </FlexCol>
+            </FlexRow>
+            <div
+                style={{ textAlign: 'center', width: '500px', margin: 'auto' }}
+            >
+                <a href="https://play.google.com/store/apps/details?id=adults.coloring.books&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+                    <img
+                        alt="Get it on Google Play"
+                        src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                    />
+                </a>
             </div>
             <div>
                 <h3
@@ -63,7 +119,6 @@ export default function IndexPage(): React.ReactElement {
                 Beautiful colouring pages with florals, famous artworks,
                 animals, patterns and mandalas - all tailored for joy.
             </p>
-
             <p>
                 Have fun playing &quot;Adults Coloring Books&quot; the most
                 fulfilling game around!
@@ -97,6 +152,9 @@ export default function IndexPage(): React.ReactElement {
                         </Link>
                     </li>
                 </ul>
+                <h4>App Policy</h4>
+                <Link to="/privacy-policy/">Privacy Policy</Link> |{' '}
+                <Link to="/terms-conditions/">Terms &amp; Conditions</Link>
             </div>
         </Layout>
     )

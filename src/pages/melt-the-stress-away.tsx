@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -8,7 +9,10 @@ export default function PrivacyPolicy(): React.ReactElement {
         <Layout>
             <SEO title="Melt The Stress Away" />
             <h1 id="the-best-adults-coloring-pages-to-melt-the-stress-away">
-                The Best Adults Coloring Pages to Melt The Stress Away
+                <a href="https://play.google.com/store/apps/details?id=adults.coloring.books">
+                    The Best Adults Coloring Pages
+                </a>{' '}
+                to Melt The Stress Away
             </h1>
             <p>
                 These coloring pages are a perfect way for men to enjoy their
@@ -21,7 +25,8 @@ export default function PrivacyPolicy(): React.ReactElement {
             </p>
             <p>
                 Coloring books do more than assist in{' '}
-                <strong>relieving stress</strong>. The adults coloring books
+                <strong>relieving stress</strong>. The{' '}
+                <Link to="/">adults coloring books</Link>
                 with abstract designs have been found to have a variety of
                 positive effects. People suffering from post-traumatic stress
                 disorder (PTSD) have shown that coloring adult coloring books

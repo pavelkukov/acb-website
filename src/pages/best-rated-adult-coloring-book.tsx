@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -11,11 +12,15 @@ export default function PrivacyPolicy(): React.ReactElement {
                 Best-rated adult coloring book
             </h1>
             <p>
-                The adult coloring books available today are reminiscent of the
-                coloring books of years past. The main difference is the
-                digitalization. Now you can color as many times as you wish.
-                Have undo and redo. The best part is that all coloring pages are
-                free and printable.{' '}
+                The{' '}
+                <a href="https://play.google.com/store/apps/details?id=adults.coloring.books&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-2">
+                    adults coloring books
+                </a>{' '}
+                available today are reminiscent of the coloring books of years
+                past. The main difference is the digitalization. Now you can
+                color as many times as you wish. Have undo and redo. The best
+                part is that all <Link to="/">coloring pages</Link> are free and
+                printable.{' '}
             </p>
             <p>
                 When you start coloring for the first time, tap on the area to

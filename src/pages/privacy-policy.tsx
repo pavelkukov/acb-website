@@ -10,9 +10,12 @@ export default function PrivacyPolicy(): React.ReactElement {
             <SEO title="Privacy Policy" />
             <strong>Privacy Policy</strong>{' '}
             <p>
-                CodeIterator built the Adults Coloring Books app as an Ad
-                Supported app. This SERVICE is provided by CodeIterator at no
-                cost and is intended for use as is.
+                CodeIterator built the{' '}
+                <a href="https://play.google.com/store/apps/details?id=adults.coloring.books">
+                    Adults Coloring Books
+                </a>{' '}
+                app as an Ad Supported app. This SERVICE is provided by
+                CodeIterator at no cost and is intended for use as is.
             </p>{' '}
             <p>
                 This page is used to inform visitors regarding our policies with

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -8,13 +9,16 @@ export default function PrivacyPolicy(): React.ReactElement {
         <Layout>
             <SEO title="Stress Relieving Pattern" />
             <h1 id="adults-coloring-books-stress-relieving-pattern">
-                Adults Coloring Books: Stress Relieving Pattern
+                Adults Coloring Books: Stress Relieving Patterns
             </h1>
             <p>
                 A quick, bright, playful coloring book is the perfect game on
-                the go. All you need to get started - download and play, making
-                it ideal for adults. Coloring with natural movements and rainbow
-                colors is an enjoyable process for anyone.
+                the go. All you need to get started -{' '}
+                <a href="https://play.google.com/store/apps/details?id=adults.coloring.books">
+                    download and play
+                </a>
+                , making it ideal for adults. Coloring with natural movements
+                and rainbow colors is an enjoyable process for anyone.
             </p>
             <h4 id="art-books-minding-things-mental">
                 Art Books: Minding Things Mental
@@ -23,8 +27,9 @@ export default function PrivacyPolicy(): React.ReactElement {
                 Since coloring involves creating beautiful, detailed images, art
                 books give you a new and original way to explore the human form.
                 There&#39;s a wide variety of books available, but many have
-                patterns to draw upon. Depending on your preferences, you can
-                create wonderful artwork or just color mandalas and meditate.
+                patterns to draw upon. Depending on your preferences, you can{' '}
+                <Link to="/">create wonderful</Link> artwork or just color
+                mandalas and meditate.
             </p>
             <h4 id="what-s-better-than-a-simple-coloring">
                 What&#39;s better than a simple coloring?

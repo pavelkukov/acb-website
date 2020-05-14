@@ -629,3 +629,8 @@ pre tt:after {
 .footer-link:hover {
     text-decoration: underline;
 }
+
+.gatsby-image-wrapper,
+[data-rmiz-wrap] {
+    width: 100%;
+}

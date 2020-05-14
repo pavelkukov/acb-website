@@ -7,6 +7,10 @@ module.exports = {
     },
     plugins: [
         `gatsby-plugin-typescript`,
+        {
+            resolve: `gatsby-plugin-styled-components`,
+            options: {},
+        },
         `gatsby-plugin-meta-redirect`,
         `gatsby-plugin-react-helmet`,
         {

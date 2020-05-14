@@ -46,14 +46,7 @@ export default function Layout({
                         fontSize: `16px`,
                         textAlign: `right`,
                     }}
-                >
-                    <Link to="/">Home</Link> |{' '}
-                    <Link to="/privacy-policy/">
-                        Adults Coloring Books - Privacy Policy
-                    </Link>{' '}
-                    |{' '}
-                    <Link to="/terms-conditions/">Terms &amp; Conditions</Link>
-                </footer>
+                ></footer>
             </div>
         </>
     )
