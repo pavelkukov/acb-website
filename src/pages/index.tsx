@@ -38,6 +38,9 @@ export default function IndexPage(): React.ReactElement {
                     <FlexRow>
                         <FlexCol>
                             <iframe
+                                title={
+                                    'Official app video: Adults Coloring Books'
+                                }
                                 style={{ width: '100%', height: '100%' }}
                                 src="https://www.youtube.com/embed/ZVrzkqW0edI"
                                 frameBorder="0"
