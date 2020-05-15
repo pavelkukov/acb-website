@@ -134,6 +134,11 @@ export default function IndexPage(): React.ReactElement {
                 <h3>Articles</h3>
                 <ul>
                     <li>
+                        <Link to="/adult-coloring-pages/">
+                            Adult Coloring Pages - Summer Beach
+                        </Link>
+                    </li>
+                    <li>
                         <Link to="/stress-relieving-pattern/">
                             Stress Relieving Pattern
                         </Link>
