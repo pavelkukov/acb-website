@@ -85,7 +85,11 @@ export default function IndexPage(): React.ReactElement {
                 </FlexCol>
             </FlexRow>
             <div
-                style={{ textAlign: 'center', width: '500px', margin: 'auto' }}
+                style={{
+                    textAlign: 'center',
+                    maxWidth: '500px',
+                    margin: 'auto',
+                }}
             >
                 <a href="https://play.google.com/store/apps/details?id=adults.coloring.books&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
                     <img
