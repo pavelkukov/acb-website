@@ -134,6 +134,11 @@ export default function IndexPage(): React.ReactElement {
                 <h3>Articles</h3>
                 <ul>
                     <li>
+                        <Link to="/5-best-tattoo-adult-coloring-pages/">
+                            5 Best Girl Tattoos - adult coloring pages
+                        </Link>
+                    </li>
+                    <li>
                         <Link to="/adult-coloring-pages/">
                             Adult Coloring Pages - Summer Beach
                         </Link>

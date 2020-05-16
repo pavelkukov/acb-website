@@ -14,3 +14,7 @@ export const FlexCol = styled.div`
     flex-basis: 100%;
     padding: 5px;
 `
+
+export const FlexColTextCenter = styled(FlexCol)`
+    text-align: center;
+`

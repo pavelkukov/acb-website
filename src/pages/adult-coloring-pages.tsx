@@ -52,12 +52,12 @@ export default function PrivacyPolicy(): React.ReactElement {
             </p>
             <p>
                 If you&apos;re looking for inspiration, consider printing the
-                illustration. Create a piece of art to set the right mood for
-                your summer holiday.
+                illustration. <Link to="/">Create a piece of art</Link> to set
+                the right mood for your summer holiday.
             </p>
             <p>
-                You can download printable version from the download link under
-                the image.
+                You can download printable version from the link under the
+                image.
             </p>
             <div
                 style={{
