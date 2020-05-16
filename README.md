@@ -9,6 +9,9 @@
 ## 🍬 Created with [GatsbyJS](https://www.gatsbyjs.org/)
 
 😱 Content is generated with talktotransformer (https://talktotransformer.com/)
-__________________
+
+---
+
 **Don't tell anyone**
-__________________
+
+---
