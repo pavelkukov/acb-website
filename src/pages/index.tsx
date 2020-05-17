@@ -134,6 +134,11 @@ export default function IndexPage(): React.ReactElement {
                 <h3>Articles</h3>
                 <ul>
                     <li>
+                        <Link to="/mandala-magic-coloring-book/">
+                            The Best 8 Mandala Magic Coloring Pages
+                        </Link>
+                    </li>
+                    <li>
                         <Link to="/5-best-tattoo-adult-coloring-pages/">
                             5 Best Girl Tattoos - adult coloring pages
                         </Link>

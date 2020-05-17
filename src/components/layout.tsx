@@ -6,7 +6,7 @@
  */
 
 import React from 'react'
-import { useStaticQuery, graphql, Link } from 'gatsby'
+import { useStaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
 import './layout.css'

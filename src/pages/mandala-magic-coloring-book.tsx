@@ -17,19 +17,24 @@ import SunMandala2 from '../components/images/SunMandala2'
 export default function PrivacyPolicy(): React.ReactElement {
     return (
         <Layout>
-            <SEO title="Mandala coloring pages for adults" />
-            <h1 id="mandala-coloring-pages-and-designs-for-adults">
-                Mandala{' '}
+            <SEO title="Mandala Magic coloring book" />
+            <h1
+                id="mandala-magic-coloring-book"
+                style={{ textAlign: 'center' }}
+            >
+                The Best 8 Mandala Magic
+                <br />
                 <a href="https://play.google.com/store/apps/details?id=adults.coloring.books">
-                    coloring pages and designs for adults
+                    coloring pages for adults
                 </a>
             </h1>
             <p>
-                Mandala coloring pages help promote clarity in concentration and
-                restore balance and mindfulness. If you like coloring,
-                you&#39;ll appreciate a Mandala coloring book. Like the physical
-                mandalas, the illustrations are done using natural hand motions
-                to facilitate ease of memorization.
+                <Link to="/">Mandala</Link> magic is in the clarity of the mind.
+                It is the comprehension of the truth, of the more or less
+                convenient reality, of the prime underlying truth of the
+                universe that contains it. It is the primacy of what is, and the
+                experience of nothingness. It is what happens between the lines
+                of an alphabet. It is a clear perception of yourself.
             </p>
             <FlexRow>
                 <FlexColTextCenter>
@@ -74,15 +79,13 @@ export default function PrivacyPolicy(): React.ReactElement {
                 </FlexColTextCenter>
             </FlexRow>
             <p>
-                Indo-Asian Art helps you get started in the art of making art,
-                and as you practice, you will find the patterns clear and
-                simple. It is a way that non-artists can understand too because
-                of its purity.{' '}
-                <Link to="/mandala-magic-coloring-book/">Mandalas</Link> come in
-                a variety of styles and shapes. The Asian art takes a very
-                different approach because their goal is to express the innate
-                virtues of enlightenment. The doors of enlightenment are opened
-                through both physical and mental activities.
+                One must possess clarity, one must be open to illumination, and
+                a clear perception of one&apos;s inner self is a prerequisite of
+                this insight. Once this clarity is achieved, one can still
+                listen to the infinite chatter of the mind, but the mind has
+                been stripped of its corruption and delusion, and this is how
+                the mind with that enlightenment comes into being. There is no
+                view, no acceptance of a world.
             </p>
             <FlexRow>
                 <FlexColTextCenter>
@@ -127,9 +130,17 @@ export default function PrivacyPolicy(): React.ReactElement {
                 </FlexColTextCenter>
             </FlexRow>
             <p>
-                <Link to="/">Coloring books for adults</Link> is like a
-                meditation. It allows you to clear your mind and find happiness
-                within yourself.
+                To achieve a higher state of mind you can follow the Tibetan
+                Buddhist tradition of creating colorful mandalas. They are used
+                as a meditation practice. Use adults{' '}
+                <a href="https://play.google.com/store/apps/details?id=adults.coloring.books">
+                    coloring books app
+                </a>{' '}
+                to relax and clear your mind. You can also print the pages from
+                the app directly or by downloading printable mandalas from this
+                page. Coloring is a great exercise in concentration and
+                self-control. Mandala magic is exacly this - concentration and
+                self-control.
             </p>
         </Layout>
     )
